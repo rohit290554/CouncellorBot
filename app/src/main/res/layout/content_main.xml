@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Educational Details"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kindly fill your Educational Details."
+            android:textSize="12sp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High School"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/hs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:hint="High School Percentage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intermediate"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/im"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:hint="Intermediate Percentage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Physics"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/phy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:hint="Marks out of 100"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemistry"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/chem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:hint="Marks out of 100"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maths/Biology"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/maths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:hint="Marks out of 100"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Field"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/fields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:enabled="false"
+            android:text=""
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrance Marks"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:enabled="false"
+            android:text=""
+            android:hint=""/>
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+</ScrollView>
